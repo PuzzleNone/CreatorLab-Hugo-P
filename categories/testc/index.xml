@@ -2,21 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>TestC on 演示站点</title>
-        <link>https://example.com/categories/testc/</link>
+        <link>http://localhost:1313/categories/testc/</link>
         <description>Recent content in TestC on 演示站点</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 26 Aug 2025 23:07:09 +0800</lastBuildDate><atom:link href="https://example.com/categories/testc/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Test</title>
-        <link>https://example.com/p/test/</link>
-        <pubDate>Tue, 26 Aug 2025 23:07:09 +0800</pubDate>
-        
-        <guid>https://example.com/p/test/</guid>
-        <description>&lt;p&gt;TestT
-Hello&lt;/p&gt;
-</description>
-        </item>
-        
+        <copyright>Example Person</copyright><atom:link href="http://localhost:1313/categories/testc/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
