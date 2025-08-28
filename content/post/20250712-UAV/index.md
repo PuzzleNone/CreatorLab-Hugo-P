@@ -10,4 +10,4 @@ tags:
 # <center>无人机 <font size=5>Shua!!!</font><center>
 
 ## 效果
-<video width="640" src="UAV.mp4" controls></video>
+<video width="500" src="UAV.mp4" controls></video>
