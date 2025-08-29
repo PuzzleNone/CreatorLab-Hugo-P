@@ -7,4 +7,5 @@ menu:
             icon: user
 ---
 
-This is a test page for i18n support.
+## 加入我们
+![微信](Join_Lab.jpg)
