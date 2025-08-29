@@ -3,6 +3,8 @@ date: 2025-07-22 00:00:00
 title: 光电设计竞赛
 description: 智能车对抗
 image: Light_Com-2025国.jpg
+tags: 
+ - 智能车
 ---
 
 # 介绍
