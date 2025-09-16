@@ -7,7 +7,380 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>JHZ</copyright>
-        <lastBuildDate>Tue, 26 Aug 2025 20:07:05 +0000</lastBuildDate><atom:link href="https://creatorlab.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://creatorlab.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>赛事</title>
+        <link>https://creatorlab.top/%E8%B5%9B%E4%BA%8B/</link>
+        <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://creatorlab.top/%E8%B5%9B%E4%BA%8B/</guid>
+        <description>&lt;div id=&#34;app&#34;&gt;
+  &lt;div class=&#34;container&#34;&gt;
+    &lt;h1 class=&#34;text-center my-4&#34;&gt;🌟 大学生重要竞赛信息汇总&lt;/h1&gt;
+    &lt;div class=&#34;row&#34;&gt;
+      &lt;div class=&#34;col-md-6 mb-4&#34; v-for=&#34;(contest, index) in contests&#34; :key=&#34;index&#34;&gt;
+        &lt;div class=&#34;card&#34;&gt;
+          &lt;div class=&#34;card-body&#34;&gt;
+            &lt;h5 class=&#34;card-title&#34;&gt;{{ contest.name }}&lt;/h5&gt;
+            &lt;a :href=&#34;contest.url&#34; target=&#34;_blank&#34; class=&#34;btn btn-primary btn-sm&#34;&gt;访问官网&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script src=&#34;https://unpkg.com/vue@3/dist/vue.global.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+  Vue.createApp({
+    data() {
+      return {
+        contests: [
+            {
+              name: &#34;中国国际大学生创新大赛&#34;,
+              url: &#34;https://cy.ncss.cn/&#34;
+            },
+            {
+              name: &#39;&#34;挑战杯&#34;全国大学生课外学术科技作品竞赛&#39;,
+              url: &#34;http://www.tiaozhanbei.net/&#34;
+            },
+            {
+              name: &#39;&#34;挑战杯&#34;中国大学生创业计划大赛&#39;,
+              url: &#34;http://www.tiaozhanbei.net/&#34;
+            },
+            {
+              name: &#34;ACM-ICPC国际大学生程序设计竞赛&#34;,
+              url: &#34;https://icpc.global/&#34;
+            },
+            {
+              name: &#34;全国大学生数学建模竞赛&#34;,
+              url: &#34;http://www.mcm.edu.cn/&#34;
+            },
+            {
+              name: &#34;全国大学生电子设计竞赛&#34;,
+              url: &#34;http://www.nuedcchina.com/&#34;
+            },
+            {
+              name: &#34;中国大学生医学技术技能大赛&#34;,
+              url: &#34;https://medu.bjmu.edu.cn/cms/show.action?code=publish_4af037e16e264f60016eaa7dea950ef4&amp;siteid=100001&#34;
+            },
+            {
+              name: &#34;全国大学生机械创新设计大赛&#34;,
+              url: &#34;http://umic.ckcest.cn/&#34;
+            },
+            {
+              name: &#34;全国大学生结构设计竞赛&#34;,
+              url: &#34;http://www.structurecontest.com/&#34;
+            },
+            {
+              name: &#34;全国大学生广告艺术大赛&#34;,
+              url: &#34;https://www.sun-ada.net/&#34;
+            },
+            {
+              name: &#34;全国大学生智能汽车竞赛&#34;,
+              url: &#34;http://www.eepw.com.cn/event/action/freescale_car2012/&#34;
+            },
+            {
+              name: &#34;全国大学生电子商务“创新、创意及创业”挑战赛&#34;,
+              url: &#34;http://www.3chuang.net/&#34;
+            },
+            {
+              name: &#34;中国大学生工程实践与创新能力大赛&#34;,
+              url: &#34;http://www.gcxl.edu.cn/new/index.html&#34;
+            },
+            {
+              name: &#34;全国大学生物流设计大赛&#34;,
+              url: &#34;http://www.clpp.org.cn/&#34;
+            },
+            {
+              name: &#39;&#34;外研社·国才杯&#34;“理解当代中国”全国大学生外语能力大赛&#39;,
+              url: &#34;http://uchallenge.unipus.cn/&#34;
+            },
+            {
+              name: &#34;两岸新锐设计竞赛·华灿奖&#34;,
+              url: &#34;http://www.huacanjiang.com/home&#34;
+            },
+            {
+              name: &#34;全国大学生创新创业训练计划年会展示&#34;,
+              url: &#34;http://gjcxcy.bjtu.edu.cn/Index.aspx&#34;
+            },
+            {
+              name: &#34;全国大学生化工设计竞赛&#34;,
+              url: &#34;http://iche.zju.edu.cn/&#34;
+            },
+            {
+              name: &#34;全国大学生机器人大赛&#34;,
+              url: &#34;https://www.cnrobocon.net/&#34;
+            },
+            {
+              name: &#34;全国大学生市场调查与分析大赛&#34;,
+              url: &#34;http://www.china-cssc.org/list-56-1.html&#34;
+            },
+            {
+              name: &#34;全国大学生先进成图技术与产品信息建模创新大赛&#34;,
+              url: &#34;http://www.chengtudasai.com/&#34;
+            },
+            {
+              name: &#34;全国三维数字化创新设计大赛&#34;,
+              url: &#34;https://3dds.3ddl.net/&#34;
+            },
+            {
+              name: &#39;&#34;西门子杯&#34;中国智能制造挑战赛&#39;,
+              url: &#34;http://www.siemenscup-cimc.org.cn/&#34;
+            },
+            {
+              name: &#34;中国大学生服务外包创新创业大赛&#34;,
+              url: &#34;http://www.fwwb.org.cn/&#34;
+            },
+            {
+              name: &#34;中国大学生计算机设计大赛&#34;,
+              url: &#34;http://jsjds.blcu.edu.cn/&#34;
+            },
+            {
+              name: &#34;中国高校计算机大赛&#34;,
+              url: &#34;http://www.c4best.cn/&#34;
+            },
+            {
+              name: &#34;蓝桥杯全国软件和信息技术专业人才大赛&#34;,
+              url: &#34;http://dasai.lanqiao.cn/&#34;
+            },
+            {
+              name: &#34;米兰设计周--中国高校设计学科师生优秀作品展&#34;,
+              url: &#34;http://www.dandad.cn/&#34;
+            },
+            {
+              name: &#34;全国大学生地质技能竞赛&#34;,
+              url: &#34;https://yuanxi.cugb.edu.cn/competition/&#34;
+            },
+            {
+              name: &#34;全国大学生光电设计竞赛&#34;,
+              url: &#34;http://gd.p.moocollege.com/&#34;
+            },
+            {
+              name: &#34;全国大学生集成电路创新创业大赛&#34;,
+              url: &#34;http://univ.ciciec.com/&#34;
+            },
+            {
+              name: &#34;全国大学生金相技能大赛&#34;,
+              url: &#34;http://www.jxds.tech/&#34;
+            },
+            {
+              name: &#34;全国大学生信息安全竞赛&#34;,
+              url: &#34;http://www.ciscn.cn/&#34;
+            },
+            {
+              name: &#34;未来设计师·全国高校数字艺术设计大赛&#34;,
+              url: &#34;https://www.ncda.org.cn/&#34;
+            },
+            {
+              name: &#34;全国周培源大学生力学竞赛&#34;,
+              url: &#34;http://zpy.cstam.org.cn/index.aspx&#34;
+            },
+            {
+              name: &#34;中国大学生机械工程创新创意大赛&#34;,
+              url: &#34;http://www.gczbds.org&#34;
+            },
+            {
+              name: &#34;中国机器人大赛暨RoboCup机器人世界杯中国赛&#34;,
+              url: &#34;http://crc.drct-caa.org.cn/&#34;
+            },
+            {
+              name: &#39;&#34;中国软件杯&#34;大学生软件设计大赛&#39;,
+              url: &#34;http://www.cnsoftbei.com/&#34;
+            },
+            {
+              name: &#34;中美青年创客大赛&#34;,
+              url: &#34;https://chinaus-maker.cscse.edu.cn/&#34;
+            },
+            {
+              name: &#34;睿抗机器人开发者大赛(RAICOM)&#34;,
+              url: &#34;https://www.robocom.com.cn/&#34;
+            },
+            {
+              name: &#39;&#34;大唐杯&#34;全国大学生新一代信息通信技术大赛&#39;,
+              url: &#34;https://dtcup.dtxiaotangren.com&#34;
+            },
+            {
+              name: &#34;华为ICT大赛&#34;,
+              url: &#34;https://e.huawei.com/cn/talent/ict-academy/#/ict-contest?compId=85131973&#34;
+            },
+            {
+              name: &#34;全国大学生嵌入式芯片与系统设计竞赛&#34;,
+              url: &#34;http://www.socchina.net/&#34;
+            },
+            {
+              name: &#34;全国大学生生命科学竞赛(CULSC)&#34;,
+              url: &#34;https://www.culsc.cn/#/&#34;
+            },
+            {
+              name: &#34;全国大学生物理实验竞赛&#34;,
+              url: &#34;http://wlsycx.moocollege.com/&#34;
+            },
+            {
+              name: &#34;国际高校BIM毕业设计创新大赛&#34;,
+              url: &#34;http://gxbsxs.glodonedu.com/&#34;
+            },
+            {
+              name: &#34;全国高校商业精英挑战赛&#34;,
+              url: &#34;http://cubec.org.cn/&#34;
+            },
+            {
+              name: &#39;&#34;学创杯&#34;全国大学生创业综合模拟大赛&#39;,
+              url: &#34;http://www.bster.cn/cyds/index&#34;
+            },
+            {
+              name: &#34;中国高校智能机器人创意大赛&#34;,
+              url: &#34;http://www.robotcontest.cn/&#34;
+            },
+            {
+              name: &#34;中国好创意暨全国数字艺术设计大赛&#34;,
+              url: &#34;https://www.cdec.org.cn/&#34;
+            },
+            {
+              name: &#34;中国机器人及人工智能大赛&#34;,
+              url: &#34;https://developer.apollo.auto/devcenter/gameOperations_cn.html?target=3&#34;
+            },
+            {
+              name: &#34;全国大学生节能减排社会实践与科技竞赛&#34;,
+              url: &#34;http://www.jienengjianpai.org/&#34;
+            },
+            {
+              name: &#39;&#34;21世纪杯&#34;全国英语演讲比赛&#39;,
+              url: &#34;https://contest.i21st.cn/&#34;
+            },
+            {
+              name: &#34;iCAN大学生创新创业大赛&#34;,
+              url: &#34;http://www.g-ican.com/home/index&#34;
+            },
+            {
+              name: &#39;&#34;工行杯&#34;全国大学生金融科技创新大赛&#39;,
+              url: &#34;www.gonghangbei.com&#34;
+            },
+            {
+              name: &#39;中华经典诵写讲大赛-①讲解大赛、②书写大赛、③诵读大赛、④篆刻大赛&#39;,
+              url: &#34;https://jdsxj.eduyun.cn/&#34;
+            },
+            {
+              name: &#39;&#34;外教社杯&#34;全国高校学生跨文化能力大赛&#39;,
+              url: &#34;https://ict.sflep.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=15&#34;
+            },
+            {
+              name: &#34;百度之星程序设计大赛&#34;,
+              url: &#34;https://star.baidu.com/#/&#34;
+            },
+            {
+              name: &#34;全国大学生工业设计大赛&#34;,
+              url: &#34;https://www.cuidc.net/#/&#34;
+            },
+            {
+              name: &#34;全国大学生水利创新设计大赛&#34;,
+              url: &#34;https://sljzw.hhu.edu.cn/fenhui/2023/0411/c12009a259306/page.htm&#34;
+            },
+            {
+              name: &#34;全国大学生化工实验大赛&#34;,
+              url: &#34;http://www.cteic.com/higherEducation-199.html?www.kulayu.com&#34;
+            },
+            {
+              name: &#34;全国大学生化学实验创新设计大赛&#34;,
+              url: &#34;https://cid.nju.edu.cn/&#34;
+            },
+            {
+              name: &#34;全国大学生计算机系统统能力大赛&#34;,
+              url: &#34;https://compiler.educg.net/#/&#34;
+            },
+            {
+              name: &#34;全国大学生花园设计建造竞赛&#34;,
+              url: &#34;http://www.lalavision.com/hysjjzjs&#34;
+            },
+            {
+              name: &#34;全国大学生物联网设计竞赛&#34;,
+              url: &#34;https://developer.huaweicloud.com/college/wulianwang.html&#34;
+            },
+            {
+              name: &#34;全国大学生信息安全与对抗技术竞赛&#34;,
+              url: &#34;www.isclab.org.cn&#34;
+            },
+            {
+              name: &#34;全国大学生测绘学科创新创业智能大赛&#34;,
+              url: &#34;http://smt.whu.edu.cn/index.htm&#34;
+            },
+            {
+              name: &#34;全国大学生统计建模大赛&#34;,
+              url: &#34;http://tjjmds.ai-learning.net&#34;
+            },
+            {
+              name: &#34;全国大学生能源经济学术创意大赛&#34;,
+              url: &#34;http://energy.qibebt.ac.cn/eneco/contribution/index.html&#34;
+            },
+            {
+              name: &#34;全国大学生基础医学创新研究暨实验设计论坛(大赛)&#34;,
+              url: &#34;http://www.jcyxds.com/&#34;
+            },
+            {
+              name: &#34;全国大学生数字煤体科技作品及创意竞赛&#34;,
+              url: &#34;http://mit.caai.cn/&#34;
+            },
+            {
+              name: &#34;全国本科院校税收风险管控赛例大赛&#34;,
+              url: &#34;微信公众号：全国本科院校税收风控案例大赛&#34;
+            },
+            {
+              name: &#34;全国企业模拟竞赛大赛&#34;,
+              url: &#34;http://www.ibizsim.cn/&#34;
+            },
+            {
+              name: &#34;全国高等院校数智化企业经营沙盘大赛&#34;,
+              url: &#34;主办单位：中国商业联合会&#34;
+            },
+            {
+              name: &#34;全国数字建筑创新应用大赛&#34;,
+              url: &#34;http://bisai.ccen.com.cn&#34;
+            },
+            {
+              name: &#34;全球校园人工智能算法精英大赛&#34;,
+              url: &#34;https://developer.huawei.com/consumer/cn/activity/digixActivity/digixdetail/101655281685926449?ha_source=HR&amp;ha_sourceId=89000452&#34;
+            },
+            {
+              name: &#34;国际大学生智能农业装备创新大赛&#34;,
+              url: &#34;http://uiaec.ujs.edu.cn&#34;
+            },
+            {
+              name: &#39;&#34;科云杯&#34;全国大学生财会职业能力大赛&#39;,
+              url: &#34;http://match.xmkeyun.com.cn/&#34;
+            },
+            {
+              name: &#34;世界职业院校技能大赛&#34;,
+              url: &#34;https://www.vcsc.org.cn/&#34;
+            },
+            {
+              name: &#34;全国大学生机器人大赛-RoboTac&#34;,
+              url: &#34;http://www.robotac.cn&#34;
+            },
+            {
+              name: &#34;世界技能大赛&#34;,
+              url: &#34;https://worldskills.org/&#34;
+            },
+            {
+              name: &#34;世界技能大赛中国选拔赛&#34;,
+              url: &#34;http://worldskillschina.mohrss.gov.cn/&#34;
+            },
+            {
+              name: &#34;一带一路暨金砖国家技能发展与技术创新大赛&#34;,
+              url: &#34;http://www.brskills.com/#/index&#34;
+            },
+            {
+              name: &#34;码蹄杯全国职业院校程序设计大赛&#34;,
+              url: &#34;https://matiji.net/matibei&#34;
+            }
+        ]
+      };
+    }
+  }).mount(&#39;#app&#39;);
+&lt;/script&gt;
+&lt;style&gt;
+  .card { transition: transform .2s; }
+  .card:hover { transform: translateY(-3px); }
+&lt;/style&gt;</description>
+        </item>
+        <item>
         <title>Welcome Freshmen Of 2025</title>
         <link>https://creatorlab.top/p/welcome-freshmen-of-2025/</link>
         <pubDate>Tue, 26 Aug 2025 20:07:05 +0000</pubDate>
@@ -362,14 +735,18 @@
         
         <guid>https://creatorlab.top/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;h2 id=&#34;加入我们&#34;&gt;加入我们
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://creatorlab.top/0.Join_Lab-20250922--.jpg&#34;
-	
-	
-	
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://creatorlab.top/%E5%85%B3%E4%BA%8E/0.Join_Lab-20250922--.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;1798&#34;
+	srcset=&#34;https://creatorlab.top/%E5%85%B3%E4%BA%8E/0.Join_Lab-20250922--_hu_9aa3b453551fa6d3.jpg 480w, https://creatorlab.top/%E5%85%B3%E4%BA%8E/0.Join_Lab-20250922--_hu_3acdb858f3daa505.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;微信&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;71&#34;
+		data-flex-basis=&#34;170px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;荣誉展示&#34;&gt;荣誉展示
