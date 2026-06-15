@@ -5,37 +5,37 @@
     <loc>https://creatorlab.top/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-cn"
-                href="https://creatorlab.top/categories/"
+                hreflang="en"
+                href="https://creatorlab.top/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://creatorlab.top/en/categories/"
+                hreflang="en-us"
+                href="https://creatorlab.top/categories/"
                 />
   </url><url>
     <loc>https://creatorlab.top/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-cn"
-                href="https://creatorlab.top/tags/"
+                hreflang="en"
+                href="https://creatorlab.top/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://creatorlab.top/en/tags/"
+                hreflang="en-us"
+                href="https://creatorlab.top/tags/"
                 />
   </url><url>
     <loc>https://creatorlab.top/en/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-cn"
-                href="https://creatorlab.top/"
+                hreflang="en"
+                href="https://creatorlab.top/en/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://creatorlab.top/en/"
+                hreflang="en-us"
+                href="https://creatorlab.top/"
                 />
   </url>
 </urlset>
