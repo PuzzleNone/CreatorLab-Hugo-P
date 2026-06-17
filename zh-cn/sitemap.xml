@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://creatorlab.top/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,10 +16,10 @@
                 />
   </url><url>
     <loc>https://creatorlab.top/post/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://creatorlab.top/tags/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -30,6 +30,12 @@
                 hreflang="en-us"
                 href="https://creatorlab.top/tags/"
                 />
+  </url><url>
+    <loc>https://creatorlab.top/p/apri_2026/</loc>
+    <lastmod>2026-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://creatorlab.top/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/</loc>
+    <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://creatorlab.top/p/jluaiic_2025/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
@@ -66,8 +72,6 @@
   </url><url>
     <loc>https://creatorlab.top/archives/</loc>
     <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://creatorlab.top/p/</loc>
   </url><url>
     <loc>https://creatorlab.top/categories/</loc>
     <xhtml:link
