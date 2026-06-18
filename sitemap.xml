@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 		<sitemap>
-			<loc>https://creatorlab.top/en/sitemap.xml</loc>
+			<loc>https://creatorlab.top/zh-cn/sitemap.xml</loc>
+			
+				<lastmod>2026-04-27T00:00:00+00:00</lastmod>
 			
 		</sitemap>
 	
 		<sitemap>
-			<loc>https://creatorlab.top/zh-cn/sitemap.xml</loc>
-			
-				<lastmod>2026-04-12T00:00:00+00:00</lastmod>
+			<loc>https://creatorlab.top/en/sitemap.xml</loc>
 			
 		</sitemap>
 	
