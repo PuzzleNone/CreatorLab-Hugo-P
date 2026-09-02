@@ -95,14 +95,18 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;加入我们&#34;&gt;加入我们
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://creatorlab.top/wxq.jpg&#34;
-	
-	
-	
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://creatorlab.top/p/welcome_2026/wxq.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;1970&#34;
+	srcset=&#34;https://creatorlab.top/p/welcome_2026/wxq_hu_2d14834597726816.jpg 480w, https://creatorlab.top/p/welcome_2026/wxq_hu_639e5b3e53aa68c6.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;微信&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;64&#34;
+		data-flex-basis=&#34;155px&#34;
 	
 &gt;&lt;/p&gt;
 </description>
